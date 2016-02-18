@@ -1,3 +1,11 @@
+Haskell plugin for LightTable
+===
+For Stanford CS 240h project, we are working on a plugin for LightTable to make it easier to learn and write code in Haskell. Initially basing our project off the existing plugin.
+
+
+
+
+
 
 # Status
 
