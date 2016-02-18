@@ -170,6 +170,7 @@ getSyntaxIssues filePath = do
   return $ either (:[]) lines result
 
 getLintIssues :: FilePath -> IO [String]
-getLintIssues file = do
-  (Right lintIssues, _) <- runGhcModT defaultOptions $ lint file
-  return $ lines lintIssues
+getLintIssues = undefined
+--getLintIssues file = do
+--  (Right lintIssues, _) <- runGhcModT defaultOptions $ lint file
+--  return $ lines lintIssues

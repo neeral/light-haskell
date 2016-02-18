@@ -4,3 +4,5 @@ dist
 target/
 .DS_Store
 .nrepl-port
+.stack-work
+*~
